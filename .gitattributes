@@ -1,0 +1,9 @@
+# Ноутбуки и текст — всегда LF, иначе на разных машинах получаются
+# ложные различия во всём файле целиком.
+*.ipynb text eol=lf
+*.md    text eol=lf
+*.py    text eol=lf
+
+*.pdf  binary
+*.pptx binary
+*.png  binary
