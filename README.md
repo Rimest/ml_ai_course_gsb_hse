@@ -43,11 +43,11 @@
 | Семинар 3–4. Математика машинного обучения | [Colab](https://colab.research.google.com/github/Rimest/ml_ai_course_gsb_hse/blob/main/seminars/03_04_math.ipynb) |
 | Шпаргалка: **HotKeys** Jupyter, Colab / *numpy*, *pandas*, *matplotlib* | [Colab](https://colab.research.google.com/github/Rimest/ml_ai_course_gsb_hse/blob/main/seminars/cheatsheet.ipynb) |
 
-| Туториалы | Ссылка |
+| Тренажеры | Ссылка |
 |---|---|
 | *numpy*, *pandas*, *matplotlib* — 65 заданий на 13 навыков | [Colab](https://colab.research.google.com/github/Rimest/ml_ai_course_gsb_hse/blob/main/tutorials/numpy_pandas_matplotlib.ipynb) |
 
-Туториалы — для самостоятельной практики, отдельные баллы за них
+Тренажеры — для самостоятельной практики, отдельные баллы за них
 не начисляются. Темы те же, что на семинарах. Держите рядом шпаргалку:
 в ней собран весь нужный синтаксис.
 
