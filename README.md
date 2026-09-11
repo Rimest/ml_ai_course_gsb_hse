@@ -35,30 +35,42 @@
 | 11 | Рекомендательные системы и большие языковые модели |
 | 12 | Сквозной ML-пайплайн, MLOps и интеграция модели в управленческий контур |
 
-Название темы со ссылкой означает, что презентация уже выложена.
-
 ## Материалы
 
-| Занятие | Открыть |
+| Семинары | Ссылка |
 |---|---|
-| Семинар 1. Инструменты: Jupyter, numpy, pandas, matplotlib | [Colab](https://colab.research.google.com/github/Rimest/ml_ai_course_gsb_hse/blob/main/seminars/01_tools.ipynb) |
-| Семинар 2. Математика машинного обучения | [Colab](https://colab.research.google.com/github/Rimest/ml_ai_course_gsb_hse/blob/main/seminars/02_math.ipynb) |
-| Шпаргалка: клавиши Jupyter, numpy, pandas, matplotlib | [Colab](https://colab.research.google.com/github/Rimest/ml_ai_course_gsb_hse/blob/main/seminars/cheatsheet.ipynb) |
+| Семинар 1–2. Инструменты: Jupyter, numpy, pandas, matplotlib | [Colab](https://colab.research.google.com/github/Rimest/ml_ai_course_gsb_hse/blob/main/seminars/01_02_tools.ipynb) |
+| Семинар 3–4. Математика машинного обучения | [Colab](https://colab.research.google.com/github/Rimest/ml_ai_course_gsb_hse/blob/main/seminars/03_04_math.ipynb) |
+| Шпаргалка: **HotKeys** Jupyter, Colab / *numpy*, *pandas*, *matplotlib* | [Colab](https://colab.research.google.com/github/Rimest/ml_ai_course_gsb_hse/blob/main/seminars/cheatsheet.ipynb) |
+
+| Туториалы | Ссылка |
+|---|---|
+| *numpy*, *pandas*, *matplotlib* — 65 заданий на 13 навыков | [Colab](https://colab.research.google.com/github/Rimest/ml_ai_course_gsb_hse/blob/main/tutorials/numpy_pandas_matplotlib.ipynb) |
+
+Туториалы — для самостоятельной практики, отдельные баллы за них
+не начисляются. Темы те же, что на семинарах. Держите рядом шпаргалку:
+в ней собран весь нужный синтаксис.
 
 Презентации лекций — ссылками в таблице «Программа» выше; все файлы
 лежат в папке [`lectures/`](lectures).
 
-> Материалы выкладываются по ходу чтения курса: сейчас доступны лекции 1–2
-> и семинары 1–2, остальные добавятся к соответствующим занятиям.
+> Материалы выкладываются по ходу чтения курса: сейчас доступны лекции 1–2,
+> семинары 1–4 и туториал по библиотекам, остальные добавятся
+> к соответствующим занятиям.
 
 ## Как работать с ноутбуками
 
 Ноутбуки подходят для Google Colab — устанавливать ничего не нужно,
 достаточно аккаунта Google.
 
-Ячейки с заголовком **Задание** содержат `...` или `raise NotImplementedError` —
-их надо заменить своим кодом. Сразу под каждым заданием стоит ячейка
-самопроверки: она печатает `✓ верно` либо подсказывает, где ошибка.
+Ячейки с заданиями содержат `...` или `raise NotImplementedError` — их надо
+заменить своим кодом. В семинарах задание помечено заголовком **Задание**,
+в тренажёре — комментарием `# --- Задание` в начале ячейки. Самопроверка
+стоит в конце той же ячейки: она печатает `✓ верно` либо подсказывает,
+где ошибка.
+
+В тренажёре условие говорит только, какой результат нужен, — какую функцию
+для этого применить, выбираете вы; синтаксис ищите в шпаргалке.
 
 Если в ходе работы выполнение кода приводит к неожиданным ошибкам, первое
 действие — «Перезапустить среду выполнения и выполнить всё»
@@ -121,7 +133,8 @@
 
 ```
 lectures/    презентации лекций в PDF
-seminars/    ноутбуки семинаров с заданиями
+seminars/    ноутбуки семинаров с заданиями и шпаргалка
+tutorials/   тренажёры для самостоятельной практики
 ```
 
 ## Преподаватель
