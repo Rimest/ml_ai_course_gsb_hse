@@ -38,7 +38,8 @@
 | Семинары | Ссылка |
 |---|---|
 | Семинар 1–2. Инструменты: Jupyter, numpy, pandas, matplotlib | [Colab](https://colab.research.google.com/github/Rimest/ml_ai_course_gsb_hse/blob/main/seminars/01_02_tools.ipynb) |
-| Семинар 3–4. Линейная и логистическая регрессии: оценка залога и кредитный скоринг | [Colab](https://colab.research.google.com/github/Rimest/ml_ai_course_gsb_hse/blob/main/seminars/03_04_regression_classification.ipynb) |
+| Семинар 3–4. Линейная и логистическая регрессии | [Colab](https://colab.research.google.com/github/Rimest/ml_ai_course_gsb_hse/blob/main/seminars/03_04_regression_classification.ipynb) |
+| Семинар 5–6. Решающие деревья, случайный лес и градиентный бустинг | [Colab](https://colab.research.google.com/github/Rimest/ml_ai_course_gsb_hse/blob/main/seminars/05_06_trees_ensembles.ipynb) |
 | Шпаргалка: **HotKeys** Jupyter, Colab / *numpy*, *pandas*, *matplotlib* | [Colab](https://colab.research.google.com/github/Rimest/ml_ai_course_gsb_hse/blob/main/seminars/cheatsheet.ipynb) |
 
 | Тренажеры | Ссылка |
@@ -56,13 +57,18 @@
 лежат в папке [`lectures/`](lectures).
 
 > Материалы выкладываются по ходу чтения курса: сейчас доступны лекции 1–6,
-> семинары 1–4 и четыре тренажёра, остальные добавятся
+> семинары 1–6 и четыре тренажёра, остальные добавятся
 > к соответствующим занятиям.
 
 ## Как работать с ноутбуками
 
 Ноутбуки подходят для Google Colab — устанавливать ничего не нужно,
-достаточно аккаунта Google.
+достаточно аккаунта Google. Единственное исключение — библиотека
+*catboost* в семинаре 5–6: в Colab её ставит первая ячейка ноутбука.
+Если запускаете ноутбуки на своём компьютере, ставьте пакеты
+в отдельное окружение (для семинара 5–6 —
+`pip install catboost lightgbm xgboost`), а не в окружение других
+проектов.
 
 Данные ноутбуки читают по прямой ссылке из папки [`data/`](data) — одной
 строкой `pd.read_csv(...)`, без скачивания, регистрации и сторонних
@@ -71,7 +77,7 @@
 что с данными сделали, есть в самом ноутбуке рядом с загрузкой.
 
 Ячейки с заданиями содержат `...` или `raise NotImplementedError` — их надо
-заменить своим кодом. В семинаре 1–2 и в тренажёрах задание помечено
+заменить своим кодом. В семинарах 1–2 и 5–6 и в тренажёрах задание помечено
 заголовком **Задание** (в тренажёре по *numpy* — комментарием
 `# --- Задание` в начале ячейки), а самопроверка стоит в конце той же
 ячейки: она печатает `✓ верно` либо подсказывает, где ошибка.
