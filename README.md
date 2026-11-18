@@ -129,7 +129,7 @@ SHAP и Deep SHAP показано на готовом коде.
 |---|---|---|---|---|
 | 1. Вероятность дефолта по автокредиту | темы 3-4 | [условие](homeworks/hw1_credit_default/) | [Colab](https://colab.research.google.com/github/Rimest/ml_ai_course_gsb_hse/blob/main/homeworks/hw1_credit_default/template_credit_default.ipynb) | [Яндекс Диск](https://disk.yandex.ru/d/wjsVUGFFIC2lCQ) |
 | 2. Мошенничество по банковским картам | темы 5–6 | [условие](homeworks/hw2_fraud/) | [Colab](https://colab.research.google.com/github/Rimest/ml_ai_course_gsb_hse/blob/main/homeworks/hw2_fraud/template_fraud.ipynb) | [Яндекс Диск](https://disk.yandex.ru/d/tetGliBdgbgjUA) |
-| 3. Какие партии проверить перед отгрузкой | темы 7–8 | [условие](homeworks/hw3_quality_control/) | [Colab](https://colab.research.google.com/github/Rimest/ml_ai_course_gsb_hse/blob/main/homeworks/hw3_quality_control/template_quality_control.ipynb) | [в папке задания](homeworks/hw3_quality_control/) |
+| 3. Дефект в продукции | темы 7–8 | [условие](homeworks/hw3_quality_control/) | [Colab](https://colab.research.google.com/github/Rimest/ml_ai_course_gsb_hse/blob/main/homeworks/hw3_quality_control/template_quality_control.ipynb) | [в папке задания](homeworks/hw3_quality_control/) |
 
 Данные к заданиям лежат на Яндекс Диске — их нужно скачать и положить
 рядом с ноутбуком. Работа сдаётся двумя файлами, названными вашей
